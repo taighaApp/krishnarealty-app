@@ -33,6 +33,8 @@ export default function RootLayout() {
     interRegular: require('../assets/fonts/Inter/static/Inter_18pt-Regular.ttf'),
     interMedium: require('../assets/fonts/Inter/static/Inter_18pt-Medium.ttf'),
     interBold: require('../assets/fonts/Inter/static/Inter_18pt-Bold.ttf'),
+    RubikRegular: require('../assets/fonts/Rubik/static/Rubik-Regular.ttf'),
+    RubikLight: require('../assets/fonts/Rubik/static/Rubik-Light.ttf')
   });
 
   useEffect(() => {
