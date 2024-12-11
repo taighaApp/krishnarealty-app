@@ -6,7 +6,7 @@ import { useRef, useState } from "react";
 
 
 function FavoritesScreen({route}:any) {
-    console.log(route);
+    // console.log(route);
     
     const [checked, setChecked] = useState('option1'); // Default selected value
     const bottomSheetModalRef = useRef<BottomSheetModal>(null);

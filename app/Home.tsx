@@ -8,7 +8,7 @@ export default function Home(){
     const router = useRouter();
 
     const logIn = () => {
-        console.log('Log In button pressed');
+        // console.log('Log In button pressed');
         router.push('/Login');
     };
       const signUp = () => {

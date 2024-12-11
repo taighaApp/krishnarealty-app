@@ -69,11 +69,7 @@ const Dashboard = () => {
   
         {/* </CustomBottomsheetModel> */}
       </View>
-        <FAB
-    icon="plus"
-    style={styles.fab}
-    onPress={() => console.log('Pressed')}
-  />
+
 
       </View>
   );
@@ -97,12 +93,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
   },
-  fab: {
-    position: 'absolute',
-    // margin: 16,
-    right: 0,
-    bottom: 0,
-  },
+
 });
 
 export default Dashboard;

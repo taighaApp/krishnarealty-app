@@ -101,12 +101,7 @@ const handleSubmit = () => {
   // setEmail('');
   // setPassword('');
 
-  navigation.navigate('Drawer', {
-    screen: 'MainTabs',
-    params: {
-      screen: 'Dashboard'
-    }
-  });
+  navigation.navigate('Drawer' as any ,{ screen: 'Tabs',params: {screen: 'Dashboard'}});
 
 };
 
